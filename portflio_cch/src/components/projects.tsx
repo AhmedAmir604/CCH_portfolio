@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="flex gap-10 w-1/2" id="projects">
       {projects.map((el) => (
-        <a className="flex flex-col gap-5 items-center border-gray-800 border-[5px] rounded-xl bg-gray-800 shadow py-[1.5rem] md:max-w-xl">
+        <a className="flex flex-col gap-5 items-center border-gray-800 border-[5px] rounded-xl bg-gray-800 shadow py-[1.5rem] md:max-w-xl hover:translate-y-[-2rem] transition-all duration-200">
           <div className="w-full h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg overflow-hidden">
             <img className="object-cover w-full h-full" src={el.img} alt="" />
           </div>
